@@ -33,7 +33,8 @@ const simpleCalculator = () => {
     resultInner.innerHTML = condition;
 
     setTimeout(() => {
-        numberOne.innerHTML = "";
-        numberTwo.innerHTML = "";
+        document.getElementById("numberOne").value = "";
+        document.getElementById("numberTwo").value = "";
+        document.getElementById("result").innerHTML = "";
     }, 3000);
 };
